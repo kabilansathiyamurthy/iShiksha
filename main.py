@@ -1,5 +1,4 @@
 import streamlit as st
-import wikipedia as ai
 import google.generativeai as genai
 import time
 GOOGLE_API_KEY = "AIzaSyCrUCzO2suUkeiwLR3NYXG85Erw1X4Zh00"
