@@ -2,7 +2,7 @@ import streamlit as st
 import wikipedia as ai
 import google.generativeai as genai
 import time
-GOOGLE_API_KEY = "AIzaSyCrUCzO2suUkeiwLR3NYXG85Erw1X4Zh00"
+GOOGLE_API_KEY = "AIzaSyDIFVkmrFRjyh8M9-JyCPI6i0FAXmn5O-U"
 genai.configure(api_key=GOOGLE_API_KEY)
 geminiModel = genai.GenerativeModel("gemini-pro")
 chat = geminiModel.start_chat(history=[])
